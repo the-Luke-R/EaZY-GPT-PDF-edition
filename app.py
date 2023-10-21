@@ -46,6 +46,7 @@ def clear_output():
     output_box.clear()
 
 def remove_file():
+    # TODO: Remove global variables, I learned a lot since then, and I know there are not advised
     global pdf, chunks, embeddings, knowledge_base
     # Enable the upload button and disable the remove button
     upload_btn.setEnabled(True)
